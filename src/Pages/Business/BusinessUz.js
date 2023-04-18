@@ -7,7 +7,7 @@ import join from "./join.jpg"
 
 
 function Business(){
-    return <div className="container-sm text-center d-flex justify-content-center mt-4 mb-4">
+    return <div id="animation" className="container-sm text-center d-flex justify-content-center mt-4 mb-4">
       <div className="container-sm">
         <section className="text-center business">
           BUZINES
@@ -36,7 +36,7 @@ function Business(){
                     </ul>
                   </div>
                   <a className="mail" href="mailto:karimberdidekhkonov0921@gmail.com">
-                    <button className="order-btn btn btn-danger">
+                    <button className="order-btn">
                        HOZIROQ BUYURTMA BERISH
                     </button>
                   </a>
@@ -57,7 +57,7 @@ function Business(){
                     </ul>
                   </div>
                   <a className="mail" href="mailto:karimberdidekhkonov0921@gmail.com">
-                    <button className="order-btn btn btn-danger">
+                    <button className="order-btn">
                       HOZIROQ ISHGA OLISH
                     </button>
                   </a>
@@ -84,7 +84,7 @@ function Business(){
                     </ul>
                   </div>
                   <a className="mail" href="mailto:karimberdidekhkonov0921@gmail.com">
-                    <button className="order-btn btn btn-danger">
+                    <button className="order-btn">
                       HOZIROQ JAMOAGA QO'SHILISH
                     </button>
                   </a>

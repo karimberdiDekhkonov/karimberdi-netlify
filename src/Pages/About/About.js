@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 function About(){
   let navigate = useNavigate()
-    return <div className="About container-sm">
+    return <div id="animation" className="About container-sm">
         <section className="about text-center">ABOUT ME</section>
         <section className="ln-1">
           {/* First */}

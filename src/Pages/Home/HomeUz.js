@@ -4,7 +4,7 @@ import './Home.scss'
 
 function Home(){
     return <div>
-        <div className={`main-container container-fluid`}>
+        <div id="animation" className={`main-container container-fluid`}>
                         <main className={`container pt-5 d-flex justify-content-between`}>
                             <section className="leftOfMain d-flex flex-column pt-5 gap-5">
                                 <div className="name-container fw-bold">

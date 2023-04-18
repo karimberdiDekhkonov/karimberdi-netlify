@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 function About(){
   let navigate = useNavigate()
-    return <div className="About container-sm">
+    return <div id="animation" className="About container-sm">
         <section className="about text-center">MEN HAQIMDA</section>
         <section className="ln-1">
           {/* First */}
@@ -34,7 +34,7 @@ function About(){
           </div>
           {/* Third */}
           <div>
-          Bu <span className="here" onClick={() =>{navigate('/uzb/projects')}}>bu yerda</span> mening ba'zi loyihalarimni topishingiz mumkin.
+          <span className="here" onClick={() =>{navigate('/uzb/projects')}}>Bu yerda</span> mening ba'zi loyihalarimni topishingiz mumkin.
           </div>
           <div className="my-5 text-center">
             <img src={projects} alt="laptop" />

@@ -7,7 +7,7 @@ import join from "./join.jpg"
 
 
 function Business(){
-    return <div className="container-sm text-center d-flex justify-content-center mt-4 mb-4">
+    return <div id="animation" className="container-sm text-center d-flex justify-content-center mt-4 mb-4">
       <div className="container-sm">
         <section className="text-center business">
           BUSINESS
@@ -36,7 +36,7 @@ function Business(){
                     </ul>
                   </div>
                   <a className="mail" href="mailto:karimberdidekhkonov0921@gmail.com">
-                    <button className="order-btn btn btn-danger">
+                    <button className="order-btn">
                       ORDER NOW
                     </button>
                   </a>
@@ -48,7 +48,7 @@ function Business(){
                 </div>
                 <div className="text-start right-business d-flex flex-column">    
                   <div>
-                    <p className="question">Why should we hire you?</p>
+                    <p className="question">Why should you hire me?</p>
                     <ul>
                         <li>I will try my best level or add value in your company.</li>
                         <li>I have good communication skills.</li>
@@ -58,7 +58,7 @@ function Business(){
                     </ul>
                   </div>
                   <a className="mail" href="mailto:karimberdidekhkonov0921@gmail.com">
-                    <button className="order-btn btn btn-danger">
+                    <button className="order-btn">
                        HIRE NOW
                     </button>
                   </a>
@@ -70,7 +70,7 @@ function Business(){
                 </div>
                 <div className="text-start right-business d-flex flex-column">    
                   <div>
-                    <p className="question">Why should I join your team?</p>
+                    <p className="question">Why you should join our team?</p>
                     <ul>
                         <li>Can have an environment to growth.</li>
                         <li>Being able to fill out your portfolio with real projects.</li>
@@ -85,7 +85,7 @@ function Business(){
                     </ul>
                   </div>
                   <a className="mail" href="mailto:karimberdidekhkonov0921@gmail.com">
-                    <button className="order-btn btn btn-danger">
+                    <button className="order-btn">
                        JOIN NOW
                     </button>
                   </a>

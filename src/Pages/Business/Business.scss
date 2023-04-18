@@ -18,6 +18,16 @@
     left: 1px;
     font-weight: bolder;
 }
+.order-btn{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    border: none;
+    padding: 10px;
+}
+.order-btn:hover{
+    background-color: rgb(255, 82, 82);
+    border: rgb(196, 194, 194) 2px solid;
+    border-radius: 8px;
+}
 .mail{
     width: 100%;
     .order-btn{

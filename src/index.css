@@ -1,0 +1,24 @@
+.hover:hover{
+    color: blue!important;
+}
+
+@keyframes slideInLeft{
+    from{
+        margin-top: 400px;
+        color: black;
+    }
+    to{
+        margin-top: 0px;
+        color: rgb(117, 116, 116);
+    }
+}
+
+#animation > *{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+
+}
+

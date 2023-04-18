@@ -12,7 +12,7 @@ function Blogs(){
             title:"How to install java 8 on Windows in 2023"
         }
     ]
-    return <div className="container-sm text-center">
+    return <div id="animation" className="container-sm text-center">
         <section className="about text-center">BLOGLARIM</section>
         <div className="row gap-5 justify-content-center mt-4 mb-4">
            {
@@ -23,7 +23,7 @@ function Blogs(){
                 })
            }
         </div>
-        <button onClick={() =>{navigate('/uzb/business')}} className="col-sm-8 mb-3 shadow-lg p-3 mb-5 mt-5 bg-body-tertiary rounded btn btn-outline-danger">HAMKORLIKNI BOSHLASH</button>
+        <button onClick={() =>{navigate('/uzb/business')}} className="col-sm-8 order-btn p-3 mb-5 mt-5r">HAMKORLIKNI BOSHLASH</button>
         <Footer/>
     </div>
 }

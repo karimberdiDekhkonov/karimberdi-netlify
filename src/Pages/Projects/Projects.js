@@ -21,7 +21,7 @@ function Projects(){
             imgSource: datahub,
             title: "Real scheduling website called 'DataHub'",
             type: "Full project",
-            link:"https://datahubcom.netlify.app/"
+            link:"http://karimberdibot.s3-website.eu-central-1.amazonaws.com/"
         },
         {
             imgSource: wasup,
@@ -83,7 +83,7 @@ function Projects(){
         }
     ]
     return <div className="Projects d-flex justify-content-center m-4">
-        <div className="container-sm">
+        <div id="animation" className="container-sm">
         <section className="text-center project">
             MY PROJECTS
         </section>
@@ -107,7 +107,7 @@ function Projects(){
                     </div>
                 })
             }
-            <button onClick={() =>{navigate('/eng/business')}} className="col-sm-8 mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded btn btn-outline-danger mb-5">LET'S GET DOWN TO BUSINESS WITH ME</button>
+            <button onClick={() =>{navigate('/eng/business')}} className="col-sm-8 order-btn p-3 mb-5 mt-5r">LET'S GET DOWN TO BUSINESS WITH ME</button>
            
         </section>  
         <Footer/>

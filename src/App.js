@@ -19,6 +19,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function App() {
   const navRef = useRef();
   let [eng, setEng ] = useState(true)
+
   const changeLanguage = () =>{
     setEng((eng) => (eng == true ? false : true))                           
   }
@@ -71,12 +72,12 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto links">
-            <Nav.Link as={Link} to={homePath}>{home}</Nav.Link>
-            <Nav.Link as={Link} to={aboutPath}>{about}</Nav.Link>
-            <Nav.Link as={Link} to={blogsPath}>{blogs}</Nav.Link>
-            <Nav.Link as={Link} to={projectsPath}>{projects}</Nav.Link>
-            <Nav.Link as={Link} to={businessPath}>{business}</Nav.Link>
-            <Nav.Link as={Link} onClick={changeLanguage} to={antiHomePath}>
+            <Nav.Link className='hover' as={Link} to={homePath}>{home}</Nav.Link>
+            <Nav.Link className='hover' as={Link} to={aboutPath}>{about}</Nav.Link>
+            <Nav.Link className='hover' as={Link} to={blogsPath}>{blogs}</Nav.Link>
+            <Nav.Link className='hover' as={Link} to={projectsPath}>{projects}</Nav.Link>
+            <Nav.Link className='hover' as={Link} to={businessPath}>{business}</Nav.Link>
+            <Nav.Link className='hover' as={Link} onClick={changeLanguage} to={antiHomePath}>
               <button  className='btn btn-dark'>{language}</button>
             </Nav.Link>
           </Nav>
